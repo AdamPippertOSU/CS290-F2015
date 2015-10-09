@@ -1,0 +1,38 @@
+/* style.css */
+
+/* Stylesheet for content.html
+ * CS290 Fall 2015
+ * Thomas "Adam" Pippert
+ */
+
+/* Table attributes */
+
+th {font: bold;}
+tbody {color: blue;}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th.firstcol {
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;}
+
+/* div attributes */
+
+.outer-content {
+background-color: pink;
+margin-top: 20px;
+margin-right: 25%;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 12.5%;
+padding-right: 12.5%;
+text-align: left;
+}
+
+.inner-content {
+background-color: LightSkyBlue;
+text-align: center;
+}
